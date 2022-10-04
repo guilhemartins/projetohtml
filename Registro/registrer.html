@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="estilos.css">
+
+        <title>Registrar</title>
+
+    </head>
+
+    <body>
+        <button type="button"><a href="../index.html">Voltar</a> </button>
+        <div id="login">
+            <form class="card">
+                <div class="card-header">
+                    <h1>FGP TOUR</h1>
+
+          
+                
+                    <legend>Cadastre-se</legend>
+                    <br/>
+                    <label>Nome Completo</label>
+                    <br/>
+                    <input type="text" id="text" name="text" Placeholder="Ex: João" maxlength="100" title="Informe um email com no máximo 100 caracteres" size="30" required />
+                    <br/>
+                    <br/>
+                    <label>Senha</label>
+                    <br/>
+                    <input type="password" id="Senha" name="Senha" maxlength="30" title="Informe a sua senha de usuário" size="15" required />
+                    <br/>
+                    <br/>
+                    <label>Data de Nascimento</label>
+                    <input type="date" id="date" name="date" Placeholder="Ex: João" maxlength="100" title="Informe um email com no máximo 100 caracteres" size="40" required />
+                    <br/>
+                    <label>Telefone</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    <br/>
+                    <br/>
+                    <label>E-Mail para autenticação</label>
+                    <br/>
+                    <input type="email" id="email" name="email" Placeholder="Ex: Nome@Email.com" maxlength="100" title="Informe um email com no máximo 100 caracteres" size="30" required />
+                    <br/>
+                    <br/>
+                    <label>Sexo</label>
+                    <input type="radio" id="contactChoice1"
+                     name="contact" value="femenino">
+                    <label for="contactChoice1">Femenino</label>
+                    <input type="radio" id="contactChoice2"
+                     name="contact" value="masculino">
+                    <label for="contactChoice2">Masculino</label>
+                    <br/>
+                <br/>
+                <br/>
+                <div>
+                <input class="Button" type="submit" value="login" />
+                <input class="Button" type="reset" value="Limpar" />
+                </div>
+            </form>
+
+                </div>
+
+            </form>
+
+
+    </body>
+
+ </html>
+</html>
